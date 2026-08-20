@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一般閥類與管道配件總覽 | 總毅實業有限公司</title>
+    <meta name="description" content="總毅實業專業供應各類建築與工業用一般閥門、給水與消防排氣閥、消防機械溝槽另件、不鏽鋼300PSI另件與保溫配件，提供一站式工程備料服務。">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+        
+        /* 頁首標題列 */
+        header { background: #1b365d; color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        header a { color: white; text-decoration: none; font-weight: bold; }
+        
+        /* 主 Banner */
+        .hero { background: #0f2b48; color: white; text-align: center; padding: 3.5rem 1rem; }
+        .hero h1 { font-size: 2.2rem; margin-bottom: 0.6rem; }
+        .hero p { opacity: 0.9; font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+        
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+        
+        /* 亮點宣告橫條 */
+        .highlight-banner { background: #ebf8ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 1.5rem; text-align: center; margin-bottom: 2.5rem; }
+        .highlight-banner h3 { color: #1e40af; margin-bottom: 0.5rem; font-size: 1.25rem; }
+        .highlight-banner p { color: #1e3a8a; font-size: 0.98rem; }
+        
+        /* 六大閥類與配件分類網格 */
+        .category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.8rem; margin-bottom: 3rem; }
+        
+        .category-card { background: white; border-radius: 8px; border: 1px solid #e2e8f0; padding: 1.8rem; box-shadow: 0 4px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: space-between; }
+        .category-card h3 { font-size: 1.25rem; color: #1b365d; border-left: 4px solid #3182ce; padding-left: 0.8rem; margin-bottom: 1rem; }
+        
+        .item-list { list-style: none; margin-bottom: 1rem; }
+        .item-list li { padding: 0.55rem 0; border-bottom: 1px dashed #edf2f7; font-size: 0.95rem; }
+        .item-list li:last-child { border-bottom: none; }
+        .item-name { font-weight: bold; color: #2d3748; display: block; margin-bottom: 0.2rem; }
+        .item-tag { font-size: 0.82rem; color: #475569; background: #f1f5f9; padding: 0.15rem 0.5rem; border-radius: 4px; display: inline-block; }
+        
+        /* 規格總覽表格區 */
+        .specs-section { background: white; border-radius: 8px; border: 1px solid #e2e8f0; padding: 2rem; margin-bottom: 3rem; box-shadow: 0 4px 6px rgba(0,0,0,0.03); }
+        .section-header-blue { border-left: 4px solid #3182ce; padding-left: 0.8rem; font-size: 1.3rem; color: #1b365d; margin-bottom: 1.2rem; font-weight: bold; }
+        
+        .spec-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+        .spec-table th, .spec-table td { padding: 0.9rem 1.2rem; border: 1px solid #e2e8f0; text-align: left; }
+        .spec-table th { background-color: #ebf8ff; color: #2b6cb0; font-weight: bold; width: 25%; white-space: nowrap; }
+        .spec-table td { color: #4a5568; }
+        
+        /* 詢價專區（特別提醒客戶可以傳報價單/材料單） */
+        .bom-notice-box { background: #fefce8; border: 1px solid #fef08a; border-radius: 8px; padding: 1.5rem; text-align: center; margin-bottom: 2.5rem; }
+        .bom-notice-box h4 { color: #854d0e; font-size: 1.15rem; margin-bottom: 0.5rem; }
+        .bom-notice-box p { color: #713f12; font-size: 0.95rem; }
+        
+        /* 頁面底部公版 CTA 藍框 */
+        .cta-box { background-color: #1b365d; color: white; padding: 2.5rem 1.5rem; text-align: center; border-radius: 8px; margin-top: 3rem; margin-bottom: 2rem; }
+        .cta-box h3 { margin-bottom: 0.8rem; font-size: 1.4rem; }
+        .cta-box p { margin-bottom: 1.5rem; opacity: 0.9; }
+        .cta-box .btn-contact { display: inline-block; background-color: #3182ce; color: white; padding: 0.7rem 1.8rem; border-radius: 6px; text-decoration: none; font-weight: bold; }
+        .cta-box .btn-contact:hover { background-color: #2b6cb0; }
+        
+        /* 頁尾 */
+        footer { text-align: center; padding: 2rem; background: #1b365d; color: white; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div><strong>總毅實業有限公司</strong></div>
+        <nav><a href="index.html">← 回首頁</a></nav>
+    </header>
+
+    <section class="hero">
+        <h1>一般閥類與管道配件總覽</h1>
+        <p>提供全系列建築給排水、消防與工業管道閥門，一站式滿足工程備料需求</p>
+    </section>
+
+    <div class="container">
+
+        <!-- 亮點宣告橫條 -->
+        <div class="highlight-banner">
+            <h3>🏢 一站式管道閥門供應服務</h3>
+            <p>總毅實業備有齊全的常備閥件庫存，涵蓋多種材質、壓力等級與連接方式。無論是零星補充或全案工程備料，均能為您提供最專業快速的對應。</p>
+        </div>
+
+        <!-- 六大閥類與配件分類網格 -->
+        <div class="category-grid">
+            
+            <!-- 分類 1 -->
+            <div class="category-card">
+                <h3>🚪 開關閥類</h3>
+                <ul class="item-list">
+                    <li><span class="item-name">閘閥 (Gate Valve)</span> <span class="item-tag">昇桿 / 暗桿 / 溝槽</span></li>
+                    <li><span class="item-name">球閥 (Ball Valve)</span> <span class="item-tag">兩片式 牙口 / 法蘭口 / 溝槽</span></li>
+                    <li><span class="item-name">蝶閥 (Butterfly Valve)</span> <span class="item-tag">對夾式 / 齒輪式 / 手把式 / 溝槽</span></li>
+                </ul>
+            </div>
+
+            <!-- 分類 2 -->
+            <div class="category-card">
+                <h3>🔄 逆止閥與過濾類</h3>
+                <ul class="item-list">
+                    <li><span class="item-name">靜音逆止閥 (Silent Check Valve)</span> <span class="item-tag">揚水泵浦出口專用</span></li>
+                    <li><span class="item-name">直立式緩衝逆止閥 (Dual Plate Check)</span> <span class="item-tag">體積小 / 低水頭損失</span></li>
+                    <li><span class="item-name">橫式逆止閥 (Swing Check)</span> <span class="item-tag">經典耐用 / 牙口與法蘭</span></li>
+                    <li><span class="item-name">底閥 (Foot Valve)</span> <span class="item-tag">泵浦吸入端防回流</span></li>
+                    <li><span class="item-name">Y型過濾器 (Y-Strainer)</span> <span class="item-tag">保護後端閥件設備 牙口 / 法蘭口 / 溝槽</span></li>
+                </ul>
+            </div>
+
+            <!-- 分類 3 -->
+            <div class="category-card">
+                <h3>🚽 排水系統專用閥類</h3>
+                <ul class="item-list">
+                    <li><span class="item-name">偏心式制水閥 (Eccentric Plug Valve)</span> <span class="item-tag">污廢水專用</span></li>
+                    <li><span class="item-name">彈性版逆止閥 (Flex Disc Check Valve)</span> <span class="item-tag">排水防倒流</span></li>
+                </ul>
+            </div>
+
+            <!-- 分類 4：給水與消防排氣閥 -->
+            <div class="category-card">
+                <h3>💨 排氣與氣體控制閥類</h3>
+                <ul class="item-list">
+                    <li><span class="item-name">自動排氣閥 (給水系統專用)</span> <span class="item-tag">排除管路積氣 / 防止氣鎖現象</span></li>
+                    <li><span class="item-name">消防專用排氣閥</span> <span class="item-tag">消防管網充水快速排氣</span></li>
+                    <li><span class="item-name">水箱浮球閥 (Float Valve)</span> <span class="item-tag">不鏽鋼球 / 精準液位控制</span></li>
+                </ul>
+            </div>
+
+            <!-- 分類 5：消防與高壓另件 -->
+            <div class="category-card">
+                <h3>🔧 消防機械與高壓另件</h3>
+                <ul class="item-list">
+                    <li><span class="item-name">消防機械接頭另件 (Grooved Fittings)</span> <span class="item-tag">溝槽式彎頭 / 三通等 /</span></li>
+                    <li><span class="item-name">不鏽鋼 300PSI 耐高壓另件</span> <span class="item-tag">高層建築與高壓管路專用</span></li>
+                </ul>
+            </div>
+
+            <!-- 分類 6：保溫與自動化配件 -->
+            <div class="category-card">
+                <h3>❄️ 保溫另件與驅動控制</h3>
+                <ul class="item-list">
+                    <li><span class="item-name">管道保溫另件與專用配件</span> <span class="item-tag">防止冷凝結露 / 保持管路溫控</span></li>
+                    <li><span class="item-name">電動驅動閥 (Electric Actuated Valve)</span> <span class="item-tag">牙口 / 法蘭口 </span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- 全系列技術規格簡介 -->
+        <div class="specs-section">
+            <div class="section-header-blue">全系列閥件通用規格範圍</div>
+            <table class="spec-table">
+                <tr>
+                    <th>主要材質</th>
+                    <td>鑄鐵 (Cast Iron)、球墨鑄鐵 (Ductile Iron)、不鏽鋼 (SUS304)、砲金銅 (Bronze)</td>
+                </tr>
+                <tr>
+                    <th>適用口徑範圍</th>
+                    <td>1/2" (DN15) 至 12" (DN300) 以上（依閥型而定）</td>
+                </tr>
+                <tr>
+                    <th>壓力等級</th>
+                    <td>JIS 10K / 16K, ANSI 150LB / 300LB, PN10 / PN16 （依閥型而定）</td>
+                </tr>
+                <tr>
+                    <th>連接方式</th>
+                    <td>牙口 (BSPT)、法蘭口 (Flanged)、對夾式 (Wafer) 、溝槽 (Grooved)（依閥型而定）</td>
+                </tr>
+                <tr>
+                    <th>適用場所</th>
+                    <td>高層建築給排水系統、消防水務工程、工業廠房水路各類水電基礎建設。</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 鼓勵客戶傳 報價單詢價 -->
+        <div class="bom-notice-box">
+            <h4>📋 需要整案估價或尋找特定規格閥件嗎？</h4>
+            <p>如果您手中有工程材料單、報價單，或需要特殊材質與規格，歡迎直接傳送給我們！</p>
+        </div>
+
+        <!-- 底部諮詢區（公版藍框） -->
+        <div class="cta-box">
+            <h3>需要一般閥類產品目錄、報價或專案詢價？</h3>
+            <p>歡迎直接來電洽詢，或透過官方 LINE / Email 傳送您的工程需求！</p>
+            <a href="index.html#contact" class="btn-contact">立即聯絡總毅實業</a>
+        </div>
+
+    </div>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2026 總毅實業有限公司 版權所有 | TSUNG YIH ENTERPRISE CO., LTD.</p>
+    </footer>
+
+</body>
+</html>
