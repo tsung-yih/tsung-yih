@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google SEO 關鍵字與標題設定 -->
+    <title>總毅官方網站 - 桃園水錘吸收器、吸氣閥、減壓閥組、子母式減壓閥廠商</title>
+    <meta name="google-site-verification" content="hMaSuTW_60OnCwnnOXh8bvBTSOmUBHfp5xqV5rraXog" />
+    <meta name="description" content="總毅實業有限公司（TSUNG YIH）位於桃園，專營水錘吸收器、子母式減壓閥、傳統式減壓閥組、吸氣閥、一般閘閥。提供高品質流體控制與水壓保護方案。">
+    <meta name="keywords" content="總毅實業,桃園減壓閥,水錘吸收器,子母式減壓閥,傳統式減壓閥組,吸氣閥,閘閥,減壓閥組,桃園水錘吸收器">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "PingFang TC", "Microsoft JhengHei", sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        
+        /* 頁首 Header */
+        header { background-color: #1a365d; color: white; padding: 1.2rem 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo-area h1 { font-size: 1.6rem; letter-spacing: 1px; }
+        .logo-area p { font-size: 0.85rem; color: #cbd5e0; }
+        nav { margin-top: 0.5rem; }
+        nav a { color: white; text-decoration: none; margin-left: 1.2rem; font-weight: bold; font-size: 0.95rem; }
+        nav a:hover { color: #63b3ed; }
+        
+        /* 主視覺區 Hero */
+        .hero { background: linear-gradient(rgba(26, 54, 93, 0.85), rgba(26, 54, 93, 0.85)), url('https://via.placeholder.com/1200x400?text=TSUNG+YIH+ENTERPRISE'); background-size: cover; background-position: center; color: white; text-align: center; padding: 4.5rem 1.5rem; }
+        .hero h2 { font-size: 2.2rem; margin-bottom: 1rem; color: #ffffff; }
+        .hero p { font-size: 1.15rem; max-width: 850px; margin: 0 auto; color: #e2e8f0; font-weight: 300; }
+        
+        /* 產品展示區 Products */
+        .container { max-width: 1200px; margin: 3.5rem auto; padding: 0 1.5rem; }
+        .section-title { text-align: center; font-size: 1.8rem; margin-bottom: 2.5rem; color: #1a365d; position: relative; }
+        .section-title::after { content: ''; display: block; width: 60px; height: 3px; background: #3182ce; margin: 0.8rem auto 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }
+        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.25s ease, box-shadow 0.25s ease; border: 1px solid #e2e8f0; }
+        .card:hover { transform: translateY(-6px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+        .card img { width: 100%; height: 210px; object-fit: cover; background-color: #edf2f7; }
+        .card-body { padding: 1.5rem; }
+        .card-title { font-size: 1.3rem; color: #2b6cb0; margin-bottom: 0.6rem; font-weight: bold; }
+        .card-desc { font-size: 0.95rem; color: #4a5568; }
+
+        /* 公司資訊區 Contact */
+        .contact { background-color: #ebf8ff; padding: 3.5rem 1.5rem; border-top: 1px solid #bee3f8; }
+        .contact-box { max-width: 900px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; text-align: left; }
+        .contact-item { font-size: 1rem; color: #2d3748; }
+        .contact-item strong { color: #1a365d; }
+        
+        /* 頁尾 Footer */
+        footer { background-color: #1a202c; color: #a0aec0; text-align: center; padding: 1.8rem; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <!-- 頂部導覽列 -->
+    <header>
+        <div class="logo-area">
+            <h1>總毅實業有限公司</h1>
+            <p>TSUNG YIH ENTERPRISE CO.﹐ LTD.</p>
+        </div>
+        <nav>
+            <a href="#about">關於總毅</a>
+            <a href="#products">核心產品</a>
+            <a href="#contact">聯絡我們</a>
+        </nav>
+    </header>
+
+    <!-- 首頁 Slogan 主視覺區 -->
+    <section class="hero" id="about">
+        <h2>專營水力控制器與水錘吸收器及閥門設備廠商</h2>
+        <p>總毅實業有限公司 — 專營水錘吸收器、子母式減壓閥、傳統式減壓閥組、吸氣閥、一般閘閥</p>
+    </section>
+
+    <!-- 4大核心產品展示區 -->
+    <div class="container" id="products">
+        <h3 class="section-title">核心產品系列</h3>
+        <div class="grid">
+            
+            <!-- 產品 1：水錘吸收器 -->
+<div class="card" style="cursor: pointer;" onclick="location.href='water-hammer.html';">
+    <div class="card-body">
+        <h4 class="card-title">水錘吸收器</h4>
+        <p class="card-desc">有效吸收管路關閥瞬間產生的強大水錘衝擊，保護建築物管道與設備安全，延長系統壽命。</p>
+        <a href="water-hammer.html" style="display: inline-block; margin-top: 1rem; color: #3182ce; text-decoration: none; font-weight: bold;">查看產品詳情 →</a>
+    </div>
+</div>
+
+            <!-- 產品 2：減壓閥系列 -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">減壓閥系列</h4>
+                    <p class="card-desc">包含傳統式直動減壓閥組與子母式減壓閥，提供各尺寸與客製化配置。</p>
+                </div>
+            </div>
+
+            <!-- 產品 3：吸氣閥 -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">吸氣閥</h4>
+                    <p class="card-desc">自動排除管路內積存氣體，避免氣阻效應；並在管路負壓時迅速吸氣，防止管路潰縮破裂；避免臭氣蚊蟲入侵。</p>
+                </div>
+            </div>
+
+            <!-- 產品 4：一般閘閥 -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">一般閘閥</h4>
+                    <p class="card-desc">提供穩定可靠的全開 / 全關流體截斷功能，結構堅固耐用，適用於各類給排水與消防工程。</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 公司詳細聯絡資訊 -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3 class="section-title" style="margin-bottom: 1rem;">聯絡我們</h3>
+            <p style="text-align: center; color: #4a5568;">歡迎來電、傳真或透過 LINE / Email 洽詢各類閥門規格與報價資訊</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item"><strong>公司名稱：</strong>總毅實業有限公司</div>
+                <div class="contact-item"><strong>統一編號：</strong>89298270</div>
+                <div class="contact-item"><strong>電話：</strong>(03) 215-1188</div>
+                <div class="contact-item"><strong>傳真：</strong>(03) 215-0423</div>
+                <div class="contact-item"><strong>官方 LINE：</strong>bd16899</div>
+                <div class="contact-item"><strong>E-mail：</strong>pda1980@yahoo.com.tw</div>
+                <div class="contact-item" style="grid-column: 1 / -1;"><strong>公司地址：</strong>桃園市桃園區國際路二段561巷8號</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2026 總毅實業有限公司 版權所有 | TSUNG YIH ENTERPRISE CO.﹐ LTD.</p>
+    </footer>
+
+</body>
+</html>

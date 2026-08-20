@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水錘吸收器 - 總毅實業有限公司</title>
+    <meta name="description" content="總毅實業專業水錘吸收器，有效消除管路關閥水錘衝擊、降低震動與噪音，保護水泵與管路設備安全。">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "PingFang TC", "Microsoft JhengHei", sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        
+        /* 頁首 */
+        header { background-color: #1a365d; color: white; padding: 1.2rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        .logo a { color: white; text-decoration: none; font-size: 1.3rem; font-weight: bold; }
+        .back-link { color: #63b3ed; text-decoration: none; font-weight: bold; font-size: 0.95rem; }
+        .back-link:hover { text-decoration: underline; }
+        
+        /* 主容器 */
+        .container { max-width: 1000px; margin: 3rem auto; padding: 0 1.5rem; }
+        .product-header { border-bottom: 3px solid #3182ce; padding-bottom: 0.8rem; margin-bottom: 2rem; }
+        .product-title { font-size: 2rem; color: #1a365d; }
+        .product-subtitle { font-size: 1rem; color: #718096; margin-top: 0.3rem; }
+        
+        /* 產品圖文網格 */
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin-bottom: 3rem; }
+        .product-img-box { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; border: 1px solid #e2e8f0; }
+        .product-img-box img { max-width: 100%; height: auto; border-radius: 4px; }
+        .img-placeholder { width: 100%; height: 280px; background-color: #edf2f7; color: #718096; display: flex; align-items: center; justify-content: center; font-weight: bold; border-radius: 4px; }
+        
+        /* 產品特點 */
+        .features-box { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; }
+        .features-box h3 { color: #2b6cb0; margin-bottom: 1rem; font-size: 1.3rem; border-left: 4px solid #3182ce; padding-left: 0.8rem; }
+        .features-list { list-style: none; }
+        .features-list li { margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; font-size: 1rem; color: #4a5568; }
+        .features-list li::before { content: "✔"; position: absolute; left: 0; color: #3182ce; font-weight: bold; }
+        
+        /* 規格表格 */
+        .spec-section { margin-top: 3rem; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; }
+        .spec-section h3 { color: #2b6cb0; margin-bottom: 1.2rem; font-size: 1.3rem; border-left: 4px solid #3182ce; padding-left: 0.8rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { border: 1px solid #cbd5e0; padding: 0.8rem 1rem; text-align: left; font-size: 0.95rem; }
+        th { background-color: #ebf8ff; color: #2c5282; font-weight: bold; width: 30%; }
+        td { color: #4a5568; }
+        
+        /* 聯絡與行動區域 */
+        .cta-box { margin-top: 3rem; text-align: center; background: #1a365d; color: white; padding: 2.5rem 1.5rem; border-radius: 8px; }
+        .cta-box h3 { font-size: 1.5rem; margin-bottom: 0.8rem; }
+        .cta-box p { color: #cbd5e0; margin-bottom: 1.5rem; }
+        .btn-contact { display: inline-block; background: #3182ce; color: white; text-decoration: none; padding: 0.8rem 2rem; border-radius: 5px; font-weight: bold; transition: background 0.2s; }
+        .btn-contact:hover { background: #2b6cb0; }
+        
+        /* 頁尾 */
+        footer { background-color: #1a202c; color: #a0aec0; text-align: center; padding: 1.8rem; font-size: 0.9rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+    <!-- 頂部選單 -->
+    <header>
+        <div class="logo"><a href="index.html">總毅實業有限公司</a></div>
+        <a href="index.html" class="back-link">← 返回首頁</a>
+    </header>
+
+    <!-- 頁面主體 -->
+    <div class="container">
+        <div class="product-header">
+            <h1 class="product-title">水錘吸收器 WHA</h1>
+            <p class="product-subtitle">Water Hammer Arrester | 有效吸收水擊衝擊，延長大樓管路與閥門壽命</p>
+        </div>
+
+        <div class="product-grid">
+            <!-- 產品圖片區（上傳照片後替換） -->
+            <div class="product-img-box">
+                <!-- 上傳照片後，把下一行的檔名改成你的照片檔名 -->
+                <!-- <img src="hammer-photo.jpg" alt="總毅實業 - 水錘吸收器照片"> -->
+                <div class="img-placeholder">水錘吸收器產品實體照片 (準備上傳)</div>
+            </div>
+
+            <!-- 產品特點說明 -->
+            <div class="features-box">
+                <h3>產品特點與效益</h3>
+                <ul class="features-list">
+                    <li><strong>消除水錘衝擊：</strong>有效吸收閥門快速關閉或水泵啟停瞬間產生的劇烈壓力波。</li>
+                    <li><strong>保護管路安全：</strong>降低管路震動與噪音，防止管道接頭鬆脫、爆裂及設備損壞。</li>
+                    <li><strong>結構堅固耐用：</strong>本體採用高規格材質製造，使用壽命長。</li>
+                    <li><strong>安裝靈活方便：</strong>適用於各類大樓給水主幹管、高壓泵浦出口、消防及工業水務管路。</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 規格數據表格 -->
+        <div class="spec-section">
+            <h3>技術規格與說明</h3>
+            <table>
+                <tr>
+                    <th>產品名稱</th>
+                    <td>水錘吸收器</td>
+                </tr>
+                <tr>
+                    <th>主要材質</th>
+                    <td>不鏽鋼 / 砲金銅</td>
+                </tr>
+                <tr>
+                    <th>適用口徑</th>
+                    <td>牙口 / 法蘭口連接均可詢問</td>
+                </tr>
+                <tr>
+                    <th>適用介體</th>
+                    <td>民生用水、自來水、工業用水、消防水務系統</td>
+                </tr>
+                <tr>
+                    <th>適用場所</th>
+                    <td>高層建築給水管路、揚水泵浦出口、自動關閉閥門前段防護</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 底部諮詢區 -->
+        <div class="cta-box">
+            <h3>需要水錘吸收器詳細規格、圖面或產品報價？</h3>
+            <p>歡迎直接來電洽詢，或透過官方 LINE / Email 傳送您的工程需求！</p>
+            <a href="index.html#contact" class="btn-contact">立即聯絡總毅實業</a>
+        </div>
+    </div>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2026 總毅實業有限公司 版權所有 | TSUNG YIH ENTERPRISE CO.﹐ LTD.</p>
+    </footer>
+
+</body>
+</html>
