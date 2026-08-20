@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吸氣閥與正壓調節器系列 | 總毅實業有限公司</title>
+    <meta name="description" content="吸氣閥與正壓/突壓調節器，有效消除排水與排水立管氣壓不平衝、負壓虹吸，維護高層建築管道間與水務系統運作安全。">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+        
+        /* 頁首標題列 */
+        header { background: #1b365d; color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        header a { color: white; text-decoration: none; font-weight: bold; }
+        
+        /* 主 Banner */
+        .hero { background: #0f2b48; color: white; text-align: center; padding: 3rem 1rem; }
+        .hero h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        .hero p { opacity: 0.9; font-size: 1.05rem; }
+        
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+        
+        /* 產品獨立大卡片區塊 */
+        .product-card { background: white; border-radius: 8px; border: 1px solid #e2e8f0; padding: 2rem; margin-bottom: 3rem; box-shadow: 0 4px 6px rgba(0,0,0,0.03); }
+        .product-card-title { font-size: 2rem; color: #1b365d; margin-bottom: 0.3rem; }
+        .product-card-subtitle { color: #718096; font-size: 1.05rem; margin-bottom: 1.8rem; border-bottom: 2px solid #3182ce; padding-bottom: 0.6rem; }
+        
+        /* 上層：照片 + 特點與效益網格 */
+        .top-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; margin-bottom: 2rem; }
+        @media (max-width: 768px) {
+            .top-grid { grid-template-columns: 1fr; }
+        }
+        
+        /* 純 CSS 灰色占位框 (不破圖) */
+        .img-placeholder {
+            width: 100%;
+            height: 100%;
+            min-height: 250px;
+            background-color: #f1f5f9;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+            font-weight: bold;
+            font-size: 0.95rem;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        /* 特點面板 */
+        .features-panel { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 1.5rem; }
+        .section-header-blue { border-left: 4px solid #3182ce; padding-left: 0.8rem; font-size: 1.25rem; color: #2d3748; margin-bottom: 1.2rem; font-weight: bold; }
+        
+        .feature-list { list-style: none; }
+        .feature-list li { margin-bottom: 1rem; position: relative; padding-left: 1.5rem; font-size: 0.98rem; color: #4a5568; }
+        .feature-list li::before { content: "✓"; position: absolute; left: 0; top: 0; color: #3182ce; font-weight: bold; font-size: 1.1rem; }
+        .feature-list li strong { color: #2d3748; }
+        
+        /* 下層：技術規格與說明表格 */
+        .specs-section { margin-top: 1.5rem; }
+        .spec-table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.95rem; background: white; border: 1px solid #e2e8f0; }
+        .spec-table th, .spec-table td { padding: 0.85rem 1.2rem; border: 1px solid #e2e8f0; text-align: left; }
+        .spec-table th { background-color: #ebf8ff; color: #2b6cb0; font-weight: bold; width: 22%; white-space: nowrap; }
+        .spec-table td { color: #4a5568; }
+        
+        /* 標籤小按鈕（用於區分大/小口徑） */
+        .badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.85rem; font-weight: bold; margin-right: 0.4rem; }
+        .badge-small { background-color: #e2e8f0; color: #475569; }
+        .badge-large { background-color: #dbeafe; color: #1e40af; }
+        
+        /* 卡片內規格引導按鈕 */
+        .contact-cta { background: #fffaf0; border: 1px dashed #dd6b20; border-radius: 6px; padding: 1rem; text-align: center; margin-top: 1.5rem; }
+        .contact-cta p { color: #7b341e; font-weight: bold; margin-bottom: 0.6rem; font-size: 0.95rem; }
+        .btn-goto-contact { display: inline-block; background: #c53030; color: white; text-decoration: none; padding: 0.5rem 1.3rem; border-radius: 6px; font-weight: bold; font-size: 0.9rem; }
+        .btn-goto-contact:hover { background: #9b2c2c; }
+        
+        /* 頁面底部公版 CTA 藍框 */
+        .cta-box { background-color: #1b365d; color: white; padding: 2.5rem 1.5rem; text-align: center; border-radius: 8px; margin-top: 3rem; margin-bottom: 2rem; }
+        .cta-box h3 { margin-bottom: 0.8rem; font-size: 1.4rem; }
+        .cta-box p { margin-bottom: 1.5rem; opacity: 0.9; }
+        .cta-box .btn-contact { display: inline-block; background-color: #3182ce; color: white; padding: 0.7rem 1.8rem; border-radius: 6px; text-decoration: none; font-weight: bold; }
+        .cta-box .btn-contact:hover { background-color: #2b6cb0; }
+        
+        /* 頁尾 */
+        footer { text-align: center; padding: 2rem; background: #1b365d; color: white; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div><strong>總毅實業有限公司</strong></div>
+        <nav><a href="index.html">← 回首頁</a></nav>
+    </header>
+
+    <section class="hero">
+        <h1>吸氣閥與正壓調節器系列</h1>
+        <p>平衡管道氣壓平衡、消除虹吸負壓與突壓衝擊，維護高層建築管道間安全</p>
+    </section>
+
+    <div class="container">
+
+        <!-- ===== 產品 1：吸氣閥 ===== -->
+        <section class="product-card">
+            <h2 class="product-card-title">吸氣閥 Air Release / Vacuum Relief Valve</h2>
+            <p class="product-card-subtitle">破除管路真空負壓，防止排水封水破壞與管道間氣壓失衡</p>
+
+            <div class="top-grid">
+                <!-- 左側：圖片預留框 -->
+                <div class="img-placeholder">
+                    吸氣閥產品實體照片 (準備上傳)
+                </div>
+
+                <!-- 右側：產品特點與效益 -->
+                <div class="features-panel">
+                    <div class="section-header-blue">產品特點與效益</div>
+                    <ul class="feature-list">
+                        <li><strong>消除虹吸負壓：</strong>當管路急速排水或瞬間降壓時，能立即吸入大量空氣，打破真空狀態。</li>
+                        <li><strong>保護管道存水彎：</strong>有效防止高層建築排水時造成的存水彎乾涸或破封，阻絕臭氣回流。</li>
+                        <li><strong>結構輕巧耐腐蝕：</strong>本體採用高強度 ABS 材質打造，防腐蝕、抗酸鹼，延長整體管道壽命。</li>
+                        <li><strong>安裝靈活便利：</strong>提供小型與大型口徑選擇，廣泛適用於各類建築管道間與排水立管。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 下方：技術規格說明表格 -->
+            <div class="specs-section">
+                <div class="section-header-blue">技術規格說明</div>
+                <table class="spec-table">
+                    <tr>
+                        <th>產品名稱</th>
+                        <td>吸氣閥</td>
+                    </tr>
+                    <tr>
+                        <th>主要材質</th>
+                        <td>ABS</td>
+                    </tr>
+                    <tr>
+                        <th>適用口徑</th>
+                        <td>
+                            適用 1-1/2" 至 8"<br>
+                            <span class="badge badge-small">小型吸氣閥</span> 1-1/2" ~ 2"<br>
+                            <span class="badge badge-large">大型吸氣閥</span> 3" ~ 8"
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>適用場所</th>
+                        <td>高層建築管道間、排水立管頂端、通氣管路系統、存水彎防護段與常規水電工程。</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="contact-cta">
+                <p>📏 各種口徑規格、安裝圖面與現場選型，歡迎洽詢專人服務：</p>
+            </div>
+        </section>
+
+
+        <!-- ===== 產品 2：正壓、突壓調節器 ===== -->
+        <section class="product-card">
+            <h2 class="product-card-title">正壓、突壓調節器 Pressure Surge Regulator</h2>
+            <p class="product-card-subtitle">吸收排水立管高能正壓波，緩解管道間氣壓震盪</p>
+
+            <div class="top-grid">
+                <!-- 左側：圖片預留框 -->
+                <div class="img-placeholder">
+                    正壓、突壓調節器實體照片 (準備上傳)
+                </div>
+
+                <!-- 右側：產品特點與效益 -->
+                <div class="features-panel">
+                    <div class="section-header-blue">產品特點與效益</div>
+                    <ul class="feature-list">
+                        <li><strong>高效吸收突壓：</strong>內建彈性氣囊設計，具備高達 4 公升氣體量的突壓吸收能力，迅速化解瞬間高壓。</li>
+                        <li><strong>緩和排水氣震：</strong>有效緩和高層大樓排水立管底部或轉折處所產生的強烈正壓與氣流衝擊。</li>
+                        <li><strong>嚴選耐用材質：</strong>採用 PVC 閥體搭配閥蓋，具備優異的密封性與耐用度。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 下方：技術規格說明表格 -->
+            <div class="specs-section">
+                <div class="section-header-blue">技術規格說明</div>
+                <table class="spec-table">
+                    <tr>
+                        <th>產品名稱</th>
+                        <td>正壓、突壓調節器</td>
+                    </tr>
+                    <tr>
+                        <th>主要材質</th>
+                        <td>PVC (閥體) / EPDM (閥蓋) </td>
+                    </tr>
+                    <tr>
+                        <th>吸收能力</th>
+                        <td>突壓 4 公升氣體量</td>
+                    </tr>
+                    <tr>
+                        <th>適用口徑</th>
+                        <td>4" (DN100)</td>
+                    </tr>
+                    <tr>
+                        <th>適用場所</th>
+                        <td>高層建築管道間排水立管底部、轉彎轉折處、排水匯流主幹管及大型建案水務系統。</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="contact-cta">
+                <p>📏 專用 4" 口徑安裝圖面與工程規劃諮詢，歡迎洽詢專人服務：</p>
+            </div>
+        </section>
+
+
+        <!-- 底部諮詢區（公版藍框） -->
+        <div class="cta-box">
+            <h3>需要吸氣閥 / 正壓調節器詳細規格、圖面或產品報價？</h3>
+            <p>歡迎直接來電洽詢，或透過官方 LINE / Email 傳送您的工程需求！</p>
+            <a href="index.html#contact" class="btn-contact">立即聯絡總毅實業</a>
+        </div>
+
+    </div>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2026 總毅實業有限公司 版權所有 | TSUNG YIH ENTERPRISE CO., LTD.</p>
+    </footer>
+
+</body>
+</html>
