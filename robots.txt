@@ -1,0 +1,13 @@
+User-agent: Google-Extended
+Disallow:
+
+User-agent: GPTBot
+Disallow:
+
+User-agent: OAI-SearchBot
+Disallow:
+
+User-agent: PerplexityBot
+Disallow:
+
+Sitemap: https://tsung-yih.github.io/tsung-yih/sitemap.xml
